@@ -167,3 +167,4 @@ training_2
 tensorboard_logs/*
 checkpoints/
 my_model.keras
+my_dir
