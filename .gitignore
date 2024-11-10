@@ -162,3 +162,8 @@ cython_debug/
 #.idea/
 tensoflow/aclImdb_v1/*
 aclimdb_v1_archive
+training_1
+training_2
+tensorboard_logs/*
+checkpoints/
+my_model.keras
