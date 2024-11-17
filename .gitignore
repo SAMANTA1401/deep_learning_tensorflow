@@ -188,4 +188,7 @@ mnist
 training_checkpoints
 imdb_reviews
 bin.tf
-
+tumour
+model.weights.h5
+model.weights.h5.complete
+config.json.complete
