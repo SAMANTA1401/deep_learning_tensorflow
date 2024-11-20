@@ -192,3 +192,16 @@ tumour
 model.weights.h5
 model.weights.h5.complete
 config.json.complete
+labeled-mask-dataset-yolo-darknet
+facemasks
+mini_speech_commands_extracted
+saved
+esc-50_extracted
+petfinder_mini_extracted
+initial.weights.h5
+my_pet_classifier.keras
+petfinder_mini.zip
+credit_card_transactions.csv
+esc-50.zip
+mini_speech_commands.zip
+miaow_16k.wav
