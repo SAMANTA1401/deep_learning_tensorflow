@@ -1,0 +1,105 @@
+{
+    "featuresDict": {
+        "features": {
+            "bucketized_user_age": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "float32",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "movie_genres": {
+                "pythonClassName": "tensorflow_datasets.core.features.sequence_feature.Sequence",
+                "sequence": {
+                    "feature": {
+                        "classLabel": {
+                            "numClasses": "21"
+                        },
+                        "pythonClassName": "tensorflow_datasets.core.features.class_label_feature.ClassLabel"
+                    },
+                    "length": "-1"
+                }
+            },
+            "movie_id": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "movie_title": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "raw_user_age": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "float32",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "timestamp": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "int64",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "user_gender": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "bool",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "user_id": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "user_occupation_label": {
+                "classLabel": {
+                    "numClasses": "22"
+                },
+                "pythonClassName": "tensorflow_datasets.core.features.class_label_feature.ClassLabel"
+            },
+            "user_occupation_text": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "user_rating": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "float32",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "user_zip_code": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            }
+        }
+    },
+    "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+}

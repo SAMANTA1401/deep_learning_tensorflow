@@ -1,0 +1,35 @@
+{
+    "featuresDict": {
+        "features": {
+            "movie_genres": {
+                "pythonClassName": "tensorflow_datasets.core.features.sequence_feature.Sequence",
+                "sequence": {
+                    "feature": {
+                        "classLabel": {
+                            "numClasses": "21"
+                        },
+                        "pythonClassName": "tensorflow_datasets.core.features.class_label_feature.ClassLabel"
+                    },
+                    "length": "-1"
+                }
+            },
+            "movie_id": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            },
+            "movie_title": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "string",
+                    "encoding": "none",
+                    "shape": {}
+                }
+            }
+        }
+    },
+    "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+}
